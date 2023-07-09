@@ -1,0 +1,14 @@
+{
+  "name": "fastjar",
+  "version": "1.0.0",
+  "description": "Adaptive server jar downloader",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "MertGokhan",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^25.2.0"
+  }
+}
