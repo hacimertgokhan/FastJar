@@ -6,6 +6,7 @@
     box-sizing: border-box;
     background-color: #303030;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .navigation {
@@ -104,55 +105,32 @@
 .aboutbox {
     background-color: white;
     position: sticky;
+    justify-content: space-evenly;
+    display: flex;
     width: 500px;
     float: left;
     left: 175px;
     right: 80%;
-    height: 200px;
-    margin-top: 50px;
+    height: 300px;
+    margin-top: 20px;
 }
 
 
 .aboutbox p {
     font-family: "Inter";
     background-color: white;
-    padding: 50px;
+    padding: 40px;
     float: left;
     left: 10%;
 }
 
-/*
-
-.inputBox {
-    background-color: white;
-    position: sticky;
-    width: 1000px;
-    float: left;
-    right: 60%px;
-    left: 40%;
-    height: 600px;
-    margin-top: 50px;
-}
-
-
-.inputBox input {
+.aboutbox a {
+    font-size: 15px;
+    color: #303030;
     font-family: "Inter";
     background-color: white;
-    top: 10%;
-    left: 23%;
-    position: sticky;
+    text-decoration: none;
 }
-
-.inputBox label {
-    font-family: "Inter";
-    background-color: white;
-    top: 5%;
-    left: 5%;
-    position: sticky;
-}
-
-*/
-
 
 @media (max-width:600px) {
     .navigation ul {
@@ -188,4 +166,40 @@
         display: block;
     }
 }
-/*
+*/
+
+
+.download {
+    display: block;
+    position: sticky;
+    padding: 50px;
+}
+
+.download h1 {
+    justify-content: space-evenly;
+    display: block;
+    font-family: "Inter";
+}
+
+.download input {
+    border-radius: 5px;
+    font-family: "Inter";
+    display: block;
+    background-color: white;
+}
+
+.download button {
+    background-color: white;
+    font-family: "Inter";
+    justify-content: center;
+    display: block;
+    font-size: 13px;
+    border-radius: 0 0 10px 0;
+    padding: 5px;
+}
+
+.download label {
+    background-color: #303030;
+    color: white;
+    font-family: "Inter";
+}

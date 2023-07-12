@@ -8,30 +8,31 @@
 </head>
 <body>
     <nav class="navigation">
-        <h1 onclick="slide()">FASTJAR</h1>
+        <h1>FASTJAR</h1>
         <ul>
-            <li><a href="#paper">Paper</a></li>
-            <li><a href="#paper">Spigot</a></li>
-            <li><a href="#paper">Purpur</a></li>
-            <li><a href="#paper">Bukkit</a></li>
+            <li><a href="mixium.html">Paper</a></li>
+            <li><a href="spigot.html">Spigot</a></li>
+            <li><a href="vanilla.html">Vanilla</a></li>
+            <li><a href="bukkit.html">Bukkit</a></li>
         </ul>
         <div class="hamburger" id="hamburger_bars">
             <ul>
-                <li><a href="#paper">Paper</a></li>
-                <li><a href="#paper">Spigot</a></li>
-                <li><a href="#paper">Purpur</a></li>
-                <li><a href="#paper">Bukkit</a></li>
+                <li><a href="mixium.html">Paper</a></li>
+                <li><a href="spigot.html">Spigot</a></li>
+                <li><a href="vanilla.html">Vanilla</a></li>
+                <li><a href="bukkit.html">Bukkit</a></li>
             </ul>
         </div>
     </nav>
-    <div class="aboutbox">
-        <p>Hello there ! I'm Mert Gökhan, first degree developer of FastJAR.
-            allows you to download server jars directly without using internet browsers.
-            Still in development, FastJar is coded to support developers in building and setting up servers</p>
-    </div>
-
-    <span class="inputBox">
+    <span class="download">
+        <h1>Download</h1>
+        <label for="versionValue">Enter a server version: </label>
+        <input id="versionValue" type="number">
+        <button onclick="paper_downloadServerFile()">Download</button>
     </span>
+    <div class="aboutbox">
+        <p>You are now on the papermc page, all the jar files you will download from here are pulled directly from the paper sites with the help of the link, it does not contain any extra code, trojans, spyware. All downloaded files are exactly the same as the files downloaded from papermc site. In case of fear in you, you can access the source code of the program at <a>github/mixeration/FastJar</a>.</p>
+    </div>
 
     <script src="./renderer.js"></script>
 </body>

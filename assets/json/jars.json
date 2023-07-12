@@ -1,0 +1,19 @@
+{
+    "paperlinks": [
+        {
+            "version": "latest",
+            "link": "https://api.papermc.io/v2/projects/paper/versions/1.20.1/builds/70/downloads/paper-1.20.1-70.jar",
+            "name": "latest-paper"
+        },
+        {
+            "version": "1.20",
+            "link": "https://api.papermc.io/v2/projects/paper/versions/1.20/builds/17/downloads/paper-1.20-17.jar",
+            "name": "1.20-paper"
+        },
+        {
+            "version": "1.19.4",
+            "link": "https://api.papermc.io/v2/projects/paper/versions/1.19.4/builds/550/downloads/paper-1.19.4-550.jar",
+            "name": "1.19.4-paper"
+        }
+    ]
+}

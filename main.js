@@ -4,8 +4,11 @@ const path = require('path')
 
 const createWindow = () => {
     const win = new BrowserWindow({
-        width: 1280,
+        width: 500,
         height: 720,
+        minHeight: 600,
+        maxHeight: 720,
+        maxWidth:500,
         minWidth:500,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js')
@@ -26,4 +29,3 @@ app.whenReady().then (() => {
 app.on('window-all-closed', () => {
     if (process.platform !== 'darwin') app.quit()
   })
-
