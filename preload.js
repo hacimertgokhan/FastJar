@@ -8,3 +8,5 @@ window.addEventListener('DOMContentLoaded', () => {
         replaceText(`${dependency}-version`, process.version[dependency])
     }
     })
+
+

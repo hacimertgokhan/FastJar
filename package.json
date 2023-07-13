@@ -4,11 +4,20 @@
   "description": "Adaptive server jar downloader",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist:windows": "electron-builder --windows"
   },
   "author": "MertGokhan",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^25.2.0"
+    "electron": "^25.2.0",
+    "electron-builder": "^19.56.2"
+  },
+  "build": {
+    "appId": "net.mixium.fastjar",
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    }
   }
 }
